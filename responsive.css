@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Carter+One&family=Dancing+Script:wght@400;500;600&family=Instrument+Sans:wght@400;500&family=Josefin+Sans:wght@100;300;400;500;600;700&family=Josefin+Slab:wght@200;300;400;500;600;700&family=Jost:wght@100;200;400;500&family=Oleo+Script+Swash+Caps:wght@700&family=Oswald:wght@200;300;400;500;600&family=Playfair+Display:ital,wght@0,500;0,700;0,800;1,400&family=Poppins:wght@100;200;400;500;700&family=Roboto:wght@100;300;400;500;700&family=Yeseva+One&display=swap');
+:root{
+    --primary-color:  #51046A;
+    --secondary-color: #303030;
+    --text-color: #fff;
+    --btn-color:  #4F01F5;
+}
+
+@media screen and (max-width: 800px) {
+    #header .container #header-nav {
+        position: fixed;
+        top: -100px;
+        pointer-events: none;
+        opacity: 0;
+        right: 0px;
+        background: rgba(136, 9, 136, 0.238);
+        width: 20%;
+        height: 50%;
+        backdrop-filter: blur(12px);
+        z-index: 9999;
+    }
+
+    #header .container #header-nav .header-nav-open{
+        top: 0px;
+        pointer-events: all;
+        opacity: 1;
+    }
+    
+    #header .container nav .navlinks{
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        background: transparent;
+    }
+
+    #header .container nav .navlinks li a{
+        font-size: 26px;
+    }
+
+    .fa-bars-staggered{
+        display: block;
+        font-size: 22px;
+        /* margin-left: 15px; */
+        cursor: pointer;
+    }
+
+    .footer-grid{
+        grid-template-columns: repeat(2,1fr);
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    p{
+        font-size: 18px;
+    }
+
+    .hero-section .container .col h1{
+        font-size: 50px;
+    }
+
+    .hero-section .container .col p{
+        font-size: 16px;
+        margin-bottom: 10;
+    }
+
+    #promo .container .grid-3{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #price .container .grid-3{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .showcase .grid-2{
+        grid-template-columns: 1fr;
+    }
+
+    .statistics .grid-3{
+    }
+
+    fa-bars-staggered{
+        display: block;
+        font-size: 22px;
+        /* margin-left: 15px; */
+        cursor: pointer;
+    }
+
+    .search-btn{
+        display: none;
+    }
+}

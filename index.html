@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dance website - Joy bardi oyinyechi</title>
+    <script src="https://kit.fontawesome.com/e8b3228c9a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" rel="stylesheet"href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!------link css file-->
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <a href="#"><img src="./images/logo_png-transformed.png" alt="logo" width="70px" height="110px"></a>
+            </div>
+            <nav id="header-nav">
+                <ul class="navlinks">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#promo">Service</a></li>
+                    <li><a href="#price">Price</a></li>
+                    <li><a href="#showcase-1">About</a></li>
+                    <li><a href="#footer">Contact</a></li>
+                </ul>
+                <button class="nav-close-btn">
+                    <i class="fa-solid fa-xmark close-btn" onclick="closeNav()"></i>
+                </button>
+            </nav>
+            <div class="search">
+                <i 
+                 class="fa-solid fa-magnifying-glass search-btn"
+                 onclick="openSearch()"
+                 ></i>
+                 <i class="fa-solid fa-bars-staggered" onclick="openNav()"></i>
+                <div class="search-form">
+                    <div class="search-input">
+                        <input type="text" placeholder="Type & press 'Enter' to search">
+                        <i
+                         class="fa-solid fa-xmark close-btn"
+                         onclick="closeSearch()"
+                        ></i>
+                    </div>
+                </div>
+            </div>
+         
+        </div>
+    </header>
+
+<!--------Banner/hero section---------->
+
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <div class="col">
+                <h1>Title Here</h1>
+                <p>solo dancers competing in a separate category with a routine
+                     that will be judged against only the other
+                      entries in the title category.
+                </p>
+                <a href="#" class="cta-btn">Register Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="promo">
+        <div class="container">
+            <h2>Dance Tour</h2>
+            <p>
+                 Series of concerts by an artist or group of artists in different cities, countries or locations.
+                 Often, concert tours are named to differentiate different tours by the same artist.
+            </p>
+            <div class="grid grid-3">
+                <div class="promo-card">
+                    <img src="./images/joy1.png.jpg" alt="">
+                    <div class="card-content"><h3>club</h3></div>
+                    <p>we do dance in club,hip  pop all dance step.</p>
+                </div>
+                <div class="promo-card">
+                    <img src="./images/joy2.png.jpg" alt="">
+                    <div class="card-content"><h3>Promo</h3></div>
+                    <p>I can teacher azonto step,of every category,easy to learn.</p>
+                </div>
+                <div class="promo-card">
+                    <img src="./images/joy3.png.jpg" alt="">
+                    <div class="card-content"><h3>live performer</h3></div>
+                    <p>we go for live performer,any locations</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="price">
+        <div class="container">
+            <h2>PRICING</h2>
+            <p>
+                It mostly depends on long your training is going to be,then we can finaliz all 
+                amount to be paid,half paymen not accepted for no reason.
+            </p>
+            <div class="grid grid-3">
+                <div class="price-card">
+                    <i class="fa-solid fa-award"></i>
+                    <h3>BASIC</h3>
+                    <p> We try to examine some of the factors that influence the cost of dance classes.</p>
+                    <a href="#" class="price-tag">$150.00</a>
+                </div>
+                <div class="price-card">
+                    <i class="fa-solid fa-award"></i>
+                    <h3>PROFESSIONAL</h3>
+                    <p>  A performer who dances professionally. synonyms: dancer, terpsichorean.</p>
+                    <a href="#" class="price-tag">$250.00</a>
+                </div>
+                <div class="price-card">
+                    <i class="fa-solid fa-award"></i>
+                    <h3>ULTIMATE</h3>
+                    <p> lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#" class="price-tag">$350.00</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------showcase section 1-------->
+
+    <section id="showcase-1" class="showcase">
+        <div class="grid grid-2">
+            <div class="col">
+
+            </div>
+            <div class="col">
+                <div class="content">
+                    <h2>AMAZING DANCE</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                        Recusandae hic libero possimus aliquid odio.
+                    </p>
+                    <a href="#" class="cta-btn read-btn">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="showcase-2" class="showcase">
+        <div class="grid grid-2">
+            <div class="col">
+                <div class="content">
+                    <h2>BEST DANCE</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                        Recusandae hic libero possimus aliquid odio.
+                    </p>
+                    <a href="#" class="cta-btn read-btn">Read More</a>
+                </div>
+            </div>
+            <div class="col"></div>
+        </div>
+    </section>
+
+    <!---statistics section--->
+
+    <section id="statistics" class="statistics">
+        <div class="container">
+            <h2>OUR STATISTICS</h2>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                 Debitis, inventore nobis. Error, tempore deleniti.
+            </p>
+            <div class="grid grid-3">
+                <div class="col">
+                    <h3>1240+</h3>
+                    <p>Club</p>
+                </div>
+                <div class="col">
+                    <h3>2000+</h3>
+                    <p>Active Member</p>
+                </div>
+                <div class="col">
+                    <h3>1000+</h3>
+                    <p>Community</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-------quote-->
+
+    <section id="quote" class="quote">
+        <div class="container">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id impedit
+                 provident aperiam inventore temporibus.</p>
+                 <h3 class="bold">Joy Bardi</h3>
+        </div>
+    </section>
+
+    <!----newsletter----->
+
+    <section id="newsletter" class="newsletter">
+        <div class="container">
+            <h2>SUBSCRIBE</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur  consectetur adipisicing elit.consectetur  Nostrum eveniet
+             sit non dignissimos consectetur  laudantium.</p>
+             <div class="subscribe-form">
+                <input type="email" placeholder="Your Email">
+                <button type="submit">SUBSCRIBE</button>
+             </div>
+        </div>
+    </section>
+    <!------footer---------->
+
+    <footer id="footer">
+        <div class="container">
+            <div class="grid grid-4 footer-grid">
+                <div class="col col-padding-right">
+                    <h3>Musicology</h3>
+                    <p>Musicology is the scholarly analysis and research-based study of music.
+                         Musicology departments traditionally belong to the humanities.
+                    </p>
+                    <div class="social-icons">
+                        <a href="https://instagram.com/biberblizz?igshid=ZGUzMzM3NWJiOQ=="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/biber.tgnnbbvcjgg?mibextid=ZbWKwL"><i class="fa brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/BabyBlizz6?t=lpDPz5S_GzsWDkoipELuyw&s=09"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://wa.me/qr/I6VHSIIWYMNJJ1"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="col">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="#">History</a> </li>
+                        <li><a href="#">Our Team</a> </li>
+                        <li><a href="#">Brand Guide linee</a> </li>
+                        <li><a href="#">Terms & condition</a> </li>
+                        <li><a href="#">privacy policy</a> </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>SERVICE</h3>
+                    <ul>
+                        <li><a href="#">How to order</a> </li>
+                        <li><a href="#">Our poduct</a> </li>
+                        <li><a href="#">Order Status</a> </li>
+                        <li><a href="#">Promo</a> </li>
+                        <li><a href="#">Payment Method</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>Other</h3>
+                    <ul>
+                        <li><a href="#">Contact Us</a> </li>
+                        <li><a href="#">Help</a> </li>
+                        <li><a href="#">Privacy</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
